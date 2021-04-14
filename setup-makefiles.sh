@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=Atom_L
+export DEVICE=Atom_L_EEA
 export VENDOR=Unihertz
 export INITIAL_COPYRIGHT_YEAR=2020
 
@@ -26,4 +26,4 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 LINEAGE_ROOT="${MY_DIR}"/../../..
 
-"${LINEAGE_ROOT}/device/${VENDOR}/Atom_LXL/setup-makefiles-common.sh"
+"${LINEAGE_ROOT}/device/${VENDOR}/Atom_L/setup-makefiles.sh"
